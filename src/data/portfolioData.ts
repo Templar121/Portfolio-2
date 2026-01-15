@@ -196,14 +196,15 @@ export const publications: Publication[] = [
     doi: 'https://doi.org/10.1109/IC366947.2025.11290684',
     link: 'https://ieeexplore.ieee.org/document/11290684',
   },
-  // {
-  //   id: '3',
-  //   title: 'Efficient Model Compression Techniques for Edge AI Applications',
-  //   authors: ['Williams, B.', 'Mukherjee, S.', 'Rodriguez, A.'],
-  //   journal: 'Conference on Computer Vision and Pattern Recognition (CVPR)',
-  //   year: '2022',
-  //   link: 'https://cvpr2022.thecvf.com/papers',
-  // },
+  {
+    id: '3',
+    title: 'Explainable Deep Learning for Skin Cancer Detection Using Swish-Activated Convolutional Networks',
+    authors: ['S Mukherjee', 'K Chandrakar', 'S Chowdhury', 'et al.'],
+    journal: 'Discover Oncology',
+    year: '2026',
+    doi: 'https://doi.org/10.1007/s12672-026-04386-6',
+    link: 'https://rdcu.be/eY7Xp'
+  },
   // {
   //   id: '4',
   //   title: 'Self-Supervised Learning for Medical Image Analysis with Limited Labeled Data',
