@@ -193,8 +193,8 @@ export const publications: Publication[] = [
     authors: ['S Mukherjee, B Tewari, P Mukherjee'],
     journal: '17th International Conference on Contemporary Computing (IC3-2025)',
     year: '2025',
-    doi: 'To Be Published',
-    link: 'Coming Soon...',
+    doi: 'https://doi.org/10.1109/IC366947.2025.11290684',
+    link: 'https://ieeexplore.ieee.org/document/11290684',
   },
   // {
   //   id: '3',
