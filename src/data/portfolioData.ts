@@ -180,12 +180,12 @@ export const achievements: Achievement[] = [
 export const publications: Publication[] = [
   {
     id: '1',
-    title: 'Artificial Intelligence powered chatbots for the speech disabled and hearing impaired using Feedforward Neural Network',
-    authors: ['S Mukherjee, A Chatterjee, K Chandrakar, S Saxena .'],
-    journal: '1st International Conference on Advances in Computing, Communication and Networking (ICAC2N)',
-    year: '2025',
-    doi: 'https://doi.org/10.1109/icac2n63387.2024.10894803',
-    link: 'https://ieeexplore.ieee.org/abstract/document/10894803',
+    title: 'Explainable Deep Learning for Skin Cancer Detection Using Swish-Activated Convolutional Networks',
+    authors: ['S Mukherjee', 'K Chandrakar', 'S Chowdhury', 'et al.'],
+    journal: 'Discover Oncology',
+    year: '2026',
+    doi: 'https://doi.org/10.1007/s12672-026-04386-6',
+    link: 'https://rdcu.be/eY7Xp'
   },
   {
     id: '2',
@@ -198,12 +198,12 @@ export const publications: Publication[] = [
   },
   {
     id: '3',
-    title: 'Explainable Deep Learning for Skin Cancer Detection Using Swish-Activated Convolutional Networks',
-    authors: ['S Mukherjee', 'K Chandrakar', 'S Chowdhury', 'et al.'],
-    journal: 'Discover Oncology',
-    year: '2026',
-    doi: 'https://doi.org/10.1007/s12672-026-04386-6',
-    link: 'https://rdcu.be/eY7Xp'
+    title: 'Artificial Intelligence powered chatbots for the speech disabled and hearing impaired using Feedforward Neural Network',
+    authors: ['S Mukherjee, A Chatterjee, K Chandrakar, S Saxena .'],
+    journal: '1st International Conference on Advances in Computing, Communication and Networking (ICAC2N)',
+    year: '2024',
+    doi: 'https://doi.org/10.1109/icac2n63387.2024.10894803',
+    link: 'https://ieeexplore.ieee.org/abstract/document/10894803',
   },
   // {
   //   id: '4',
