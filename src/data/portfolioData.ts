@@ -59,32 +59,31 @@ export const techStacks: TechStack[] = [
   {
     category: 'Machine Learning & AI',
     skills: [
-      { name: 'TensorFlow', proficiency: 4 },
-      { name: 'PyTorch', proficiency: 4 },
-      { name: 'Scikit-learn', proficiency: 4 },
-      { name: 'Deep Learning', proficiency: 4 },
-      { name: 'Computer Vision', proficiency: 4 },
-      { name: 'NLP', proficiency: 4 },
-      { name: 'XAI', proficiency: 4},
+      { name: 'TensorFlow', proficiency: 3 },
+      { name: 'PyTorch', proficiency: 3 },
+      { name: 'Scikit-learn', proficiency: 3 },
+      { name: 'Deep Learning', proficiency: 3 },
+      { name: 'Computer Vision', proficiency: 3 },
+      { name: 'NLP', proficiency: 3 },
+      { name: 'XAI', proficiency: 3},
     ],
   },
   {
     category: 'Programming',
     skills: [
       { name: 'Python', proficiency: 4 },
-      { name: 'R', proficiency: 3 },
-      { name: 'SQL', proficiency: 3 },
-      { name: 'Java', proficiency: 3 },
+      { name: 'SQL', proficiency: 2 },
+      { name: 'Java', proficiency: 2 },
     ],
   },
   {
     category: 'Data Engineering',
     skills: [
-      { name: 'Pandas', proficiency: 4 },
-      { name: 'NumPy', proficiency: 4 },
-      { name: 'MongoDB', proficiency: 3 },
-      { name: 'Feature Engineering', proficiency: 4 },
-      { name: 'Data Cleaning & Preprocessing', proficiency: 4 },
+      { name: 'Pandas', proficiency: 3 },
+      { name: 'NumPy', proficiency: 3 },
+      { name: 'MongoDB', proficiency: 2 },
+      { name: 'Feature Engineering', proficiency: 3 },
+      { name: 'Data Cleaning & Preprocessing', proficiency: 3 },
     ],
   },
   {
@@ -107,7 +106,7 @@ export const projects: Project[] = [
     description: 'Developed a machine learning system that predicts carbon footprint emissions created by individuals. It has the potential to drive meaningful behavior and reduce global carbon emissions',
     image: footprint,
     tags: ['Machine Learning', 'AI for Good', 'Prediction Systems'],
-    demoLink: 'https://carbonfootprint.subhayanmukherjee.tech/',
+    demoLink: 'https://carbonfootprintemission.netlify.app/',
     codeLink: 'https://github.com/Templar121/Carbon-Footprint-estimation',
   },
   {
@@ -134,7 +133,7 @@ export const projects: Project[] = [
   description: 'Built a responsive frontend and intelligent backend for document-based conversations using Retrieval-Augmented Generation (RAG). Users can upload PDFs and interact with them using natural language queries, powered by vector search and LLMs.',
   image: DocuSage,
   tags: ['RAG', 'LLM', 'PDF Chat'],
-  demoLink: 'https://docusage.subhayanmukherjee.tech/',
+  demoLink: 'https://rag-docusage.netlify.app/',
   codeLink: 'https://github.com/Templar121/RAG-API',
 }
 ];
