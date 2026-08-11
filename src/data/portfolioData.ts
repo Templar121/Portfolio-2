@@ -87,7 +87,7 @@ export const techStacks: TechStack[] = [
     category: 'MLOps & Tools',
     skills: [
       { name: 'Docker', proficiency: 3 },
-      { name: 'Kubernetes', proficiency: 2 }
+      { name: 'Kubernetes', proficiency: 2 },
       { name: 'Git', proficiency: 3 }
     ],
   },
