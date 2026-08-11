@@ -25,7 +25,6 @@ export const navItems: NavItem[] = [
 export const socialLinks: SocialLink[] = [
   { platform: 'GitHub', url: 'https://github.com/Templar121', icon: 'Github' },
   { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/subhayan-mukherjee-0906b0274/', icon: 'Linkedin' },
-  { platform: 'Twitter', url: '#', icon: 'Twitter' },
   { platform: 'Email', url: 'mailto:subhayanmukherjee78@gmail.com', icon: 'Mail' },
 ];
 
@@ -81,20 +80,15 @@ export const techStacks: TechStack[] = [
     skills: [
       { name: 'Pandas', proficiency: 3 },
       { name: 'NumPy', proficiency: 3 },
-      { name: 'MongoDB', proficiency: 2 },
-      { name: 'Feature Engineering', proficiency: 3 },
-      { name: 'Data Cleaning & Preprocessing', proficiency: 3 },
+      { name: 'MongoDB', proficiency: 2 }
     ],
   },
   {
     category: 'MLOps & Tools',
     skills: [
       { name: 'Docker', proficiency: 3 },
-      { name: 'Kubernetes', proficiency: 2 },
-      { name: 'MLflow', proficiency: 3 },
-      { name: 'Git', proficiency: 3 },
-      { name: 'AWS', proficiency: 2 },
-      { name: 'Azure', proficiency: 2 },
+      { name: 'Kubernetes', proficiency: 2 }
+      { name: 'Git', proficiency: 3 }
     ],
   },
 ];
@@ -144,7 +138,7 @@ export const achievements: Achievement[] = [
     title: 'NPTEL Star',
     issuer: 'NPTEL IIT Madras',
     date: 'June 2025',
-    description: 'Recognized as an NPTEL Discipline Star and Believer Star for completing 68 Weeks of learning',
+    description: 'Recognized as an NPTEL Discipline, Believer and Domain Scholar in Data Sceince.',
   },
   {
     id: '2',
@@ -189,7 +183,7 @@ export const publications: Publication[] = [
   {
     id: '2',
     title: 'A Mixture of Experts approach for Morgan - Keenan Spectral classification of Gaia DR2 Stars',
-    authors: ['S Mukherjee, B Tewari, P Mukherjee'],
+    authors: ['S Mukherjee, B Tewari, P Mukherjee.'],
     journal: '17th International Conference on Contemporary Computing (IC3-2025)',
     year: '2025',
     doi: 'https://doi.org/10.1109/IC366947.2025.11290684',
@@ -198,21 +192,21 @@ export const publications: Publication[] = [
   {
     id: '3',
     title: 'Artificial Intelligence powered chatbots for the speech disabled and hearing impaired using Feedforward Neural Network',
-    authors: ['S Mukherjee, A Chatterjee, K Chandrakar, S Saxena .'],
+    authors: ['S Mukherjee, A Chatterjee, K Chandrakar, S Saxena.'],
     journal: '1st International Conference on Advances in Computing, Communication and Networking (ICAC2N)',
     year: '2024',
     doi: 'https://doi.org/10.1109/icac2n63387.2024.10894803',
     link: 'https://ieeexplore.ieee.org/abstract/document/10894803',
   },
-  // {
-  //   id: '4',
-  //   title: 'Self-Supervised Learning for Medical Image Analysis with Limited Labeled Data',
-  //   authors: ['Mukherjee, S.', 'Patel, R.', 'Chang, S.'],
-  //   journal: 'Nature Machine Intelligence',
-  //   year: '2021',
-  //   doi: '10.1038/s42256-021-00123-7',
-  //   link: 'https://www.nature.com/natmachintell/',
-  // },
+  {
+    id: '4',
+    title: 'Conditional Variational Autoencoder for Exoplanetary Radiance Spectrum Modeling',
+    authors: ['S Mukherjee, S Banerjee, A Roy, et al.'],
+    journal: '23rd OITS International Conference on Information Technology (OCIT)',
+    year: '2025',
+    doi: '10.1109/OCIT66168.2025.11400144',
+    link: 'https://ieeexplore.ieee.org/abstract/document/11400144',
+  },
 ];
 
 export const certifications: Certification[] = [
