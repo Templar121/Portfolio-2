@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
                 }`}
               >
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                <span>NPTEL Discipline Star</span>
+                <span>NPTEL Domain Scholar</span>
               </motion.div>
               <motion.p 
                 initial={{ opacity: 0, y: 20 }}
@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
               >
                 <span className={`font-medium ${
                   theme === 'dark' ? 'text-gray-300' : 'text-gray-700'
-                }`}>Currently focused on:</span> Computer Vision, Explainable AI, and end-to-end ML systems.
+                }`}>Currently focused on:</span> Explainable AI and end-to-end ML systems.
               </motion.p>
               
               {/* Tech Stack Chips */}
@@ -226,7 +226,7 @@ const Hero: React.FC = () => {
                     : 'bg-gradient-to-r from-blue-500 to-purple-500 border-gray-200'
                 }`}
               >
-                <p className="font-medium text-xs sm:text-sm">ML Engineer</p>
+                <p className="font-medium text-xs sm:text-sm">AIML graduate</p>
               </motion.div>
               {/* Floating elements */}
               <motion.div 
